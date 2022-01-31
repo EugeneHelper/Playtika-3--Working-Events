@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     public Text TestText;
-    public input inp;
+   // public input inp;
     // Start is called before the first frame update
     void Start()
     {
-        inp.OnInput_setUI += changeText;
+        input.OnInput_setUI += changeText;
     }
 
     void changeText()

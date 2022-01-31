@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class input : MonoBehaviour
 {
-    public event Action OnInput_setUI;
+    public static event Action OnInput_setUI;
 
     // Start is called before the first frame update
     void Start()
